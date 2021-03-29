@@ -1,0 +1,83 @@
+var dataJSON = [
+	{
+		"screenCode" : "instaLogin",
+		"screenName" : "InstaLogin Screen",
+		"screenDesc" : "This is Login screen",
+		"image" : "loginPage.png",
+		"imageLinks" : [
+			{
+				"imageDetails" : "After logging",
+				"coordinates" : "1100 300 800 330",
+				"target" : "instaProfile"
+			},
+			{
+				"imageDetails" : "login with Fb",
+				"coordinates" : "1100 370 800 420",
+				"target" : "fbLogin"
+			},
+			{
+				"imageDetails" : "forget password",
+				"coordinates" : "1100 400 830 460",
+				"target" : "forgetPassword"
+			},
+			{
+				"imageDetails" : "sign up",
+				"coordinates" : "1100 530 770 460",
+				"target" : "signUp"
+			}
+		]
+	},
+	{
+		"screenCode" : "instaProfile",
+		"screenName" : "Main Screen",
+		"screenDesc" : "This is Main screen",
+		"image" : "profile.png",
+		"imageLinks" : [
+			{
+				"imageDetails" : "Login sceen",
+				"coordinates" : "1000 200 1300 250",
+				"target" : "instaLogin"
+			}
+		]
+	},
+	{
+		"screenCode" : "fbLogin",
+		"screenName" : "Login with FB",
+		"screenDesc" : "This is FB login screen",
+		"image" : "FBLogin.png",
+		"imageLinks" : [
+			{
+				"imageDetails" : "Login sceen",
+				"coordinates" : "920 320 580 370",
+				"target" : "instaLogin"
+			}
+		]
+	},
+	{
+		"screenCode" : "forgetPassword",
+		"screenName" : "forget password Screen",
+		"screenDesc" : "This is forget password screen",
+		"image" : "forgotPassword.png",
+		"imageLinks" : [
+			{
+				"imageDetails" : "Login sceen",
+				"coordinates" : "940 580 550 650",
+				"target" : "instaLogin"
+			}
+		]
+	},
+	{
+		"screenCode" : "signUp",
+		"screenName" : "sign Up screen",
+		"screenDesc" : "This is sign Up screen",
+		"image" : "signup.png",
+		"imageLinks" : [
+			{
+				"imageDetails" : "Login sceen",
+				"coordinates" : "920 560 580 630",
+				"target" : "instaLogin"
+			}
+		]
+	}
+
+]
