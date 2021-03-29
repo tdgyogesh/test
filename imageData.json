@@ -1,7 +1,7 @@
 var dataJSON = [
 	{
-		"screenCode" : "instaLogin",
-		"screenName" : "InstaLogin Screen",
+		"screenCode" : "FBLogin",
+		"screenName" : "FBLogin Screen",
 		"screenDesc" : "This is Login screen",
 		"image" : "loginPage.png",
 		"imageLinks" : [
